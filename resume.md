@@ -214,4 +214,159 @@
 | Triplets premiers en progression géométrique | Trouver S(10⁸) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p518.md) |
 | Plus petit factoriel divisible | Trouver Σs(n) pour 2 <= n <= 10⁸ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p549.md) |
 | Triangle concave | Trouver le plus petit n tel que l'aire du triangle concave orange est inférieure à 0,1% de l'aire de la section L bleue | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p587.md) |
+| Investigation des entiers de Gauss | Soit S(N) la somme de tous les diviseurs de Gauss de tous les entiers positifs n ≤ N. Trouver S(10⁸) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p153.md) |
+| Exploration de la pyramide de Pascal | Combien de coefficients dans l'expansion de (x+y+z)²⁰⁰⁰⁰⁰ sont des multiples de 10¹² ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p154.md) |
+| Comptage de chiffres | Soit s(d) la somme de toutes les solutions pour lesquelles f(n,d)=n. Trouver ∑s(d) pour d=1 à 9 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p156.md) |
+| Investigation des séquences d'Ulam | Trouver ∑ₙ₌₂¹⁰ U(2,2n+1)ₖ, où k = 10¹¹ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p167.md) |
+| Triangles rectangles qui partagent une cathète | Trouver le plus petit entier qui peut être la longueur d'une cathète d'exactement 47547 triangles rectangles à côtés entiers différents | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p176.md) |
+| Produit maximum de parties | Trouver ∑ₙ₌₅¹⁰⁰⁰⁰ D(N) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p183.md) |
+| Number Mind | Trouver le code secret qui satisfait tous les indices donnés | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p185.md) |
+| Tri-coloration d'une grille triangulaire | Combien de colorations valides distinctes y a-t-il pour la configuration donnée ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p189.md) |
+| Maximisation d'un produit pondéré | Trouver ∑ₘ₌₂¹⁵ ⌊P_m⌋ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p190.md) |
+| Nombres sans facteur carré | Combien de nombres squarefree y a-t-il en dessous de 2⁵⁰ ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p193.md) |
+| Triplets premiers | Trouver la somme de tous les nombres premiers dans la rangée n qui sont des éléments d'un triplet premier, pour n = 5678027 et 7208785 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p196.md) |
+| Empaquetage itératif de cercles | Quelle fraction de l'aire n'est pas couverte par les cercles après 10 itérations ? Donner votre réponse arrondie à huit décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p199.md) |
+| Squbes prime-proof contenant "200" | Trouver le 200ème sqube prime-proof contenant la sous-chaîne contiguë "200" | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p200.md) |
+| Équations de partitions entières | Trouver le plus petit m pour lequel P(m) < 1/12345 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p207.md) |
+| Logique circulaire | Trouver le nombre total de fonctions T qui satisfont la condition | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p209.md) |
+| Entiers alexandrins | Trouver le 150000ème entier alexandrin | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p221.md) |
+| Une cuillère de blancmange | Quelle aire sous la courbe de blancmange est enfermée par C ? Donner votre réponse arrondie à huit décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p226.md) |
+| Quatre représentations utilisant des carrés | Combien y a-t-il de nombres qui ne dépassent pas 2×10⁹ et qui admettent les quatre représentations ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p229.md) |
+| Nombres semi-divisibles | Quelle est la somme de tous les nombres semi-divisibles ne dépassant pas 999966663333 ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p234.md) |
+| Une suite arithmético-géométrique | Trouver la valeur de r pour laquelle s(5000) = -600,000,000,000. Donner votre réponse arrondie à 12 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p235.md) |
+| Tours sur un plateau 4×N | Quelle est la valeur de T(10¹²) modulo 10⁸ ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p237.md) |
+| Vingt-deux nombres premiers insensés | Quelle est la probabilité qu'exactement 22 disques de nombres premiers soient trouvés loin de leurs positions naturelles ? Donner votre réponse arrondie à 12 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p239.md) |
+| Carrés sous une hyperbole | Trouver le plus grand n pour lequel l'index de Sₙ est (3,3) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p247.md) |
+| Triplets de Cardano | Trouver combien de triplets de Cardano existent tels que a+b+c ≤ 110000000 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p251.md) |
+| Le rêve d'un ingénieur devient réalité | Trouver la somme des 4 premiers nombres n avec la propriété donnée | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p263.md) |
+| Milliardaire | En choisissant f pour maximiser vos chances, quelle est la chance que vous deveniez milliardaire ? Donner votre réponse arrondie à 12 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p267.md) |
+| Comptage de nombres avec au moins quatre facteurs premiers distincts inférieurs à 100 | Trouver combien d'entiers positifs inférieurs à 10¹⁶ sont divisibles par au moins quatre nombres premiers distincts inférieurs à 100 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p268.md) |
+| Somme de carrés | Trouver ∑S(N), pour tous les N squarefree uniquement divisibles par des nombres premiers de la forme 4k+1 avec 4k+1 < 150 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p273.md) |
+| Multiplicateurs de divisibilité | Quelle est la somme des multiplicateurs de divisibilité pour les nombres premiers copremiers avec 10 et inférieurs à 10⁷ ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p274.md) |
+| Une séquence de Collatz modifiée | Étant donné une séquence d'étapes, trouver le plus petit entier positif qui commence cette séquence | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p277.md) |
+| Combinaisons linéaires de semi-premiers | Trouver ∑f(pᵢ,pⱼ,pₖ) pour tous les triplets de nombres premiers (pᵢ,pⱼ,pₖ) avec pᵢ < pⱼ < pₖ ≤ 1000 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p278.md) |
+| Triangles avec côtés entiers et un angle entier | Combien y a-t-il de triangles avec des côtés entiers, au moins un angle entier, et un périmètre ≤ 10⁸ ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p279.md) |
+| Garnitures de pizza | Trouver la somme de tous les f(m,n) tels que f(m,n) ≤ 10¹⁵ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p281.md) |
+| Probabilités pythagoriciennes | S'il joue 10⁵ tours, quelle est la valeur attendue de son score total, arrondie à cinq décimales ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p285.md) |
+| Probabilités de score | Trouver q tel que la probabilité de marquer exactement 20 points soit 2%. Donner votre réponse arrondie à 10 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p286.md) |
+| Nombres premiers de Panaitopol | Trouver combien de nombres premiers de Panaitopol sont inférieurs à 5×10¹⁵ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p291.md) |
+| Nombres pseudo-Fortunés | Trouver la somme de tous les nombres pseudo-Fortunés distincts pour les nombres admissibles N < 10⁹ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p293.md) |
+| Bissectrice angulaire et tangente | Combien de triangles ABC avec périmètre ≤ 100000 existent tels que BE a une longueur entière ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p296.md) |
+| Représentation de Zeckendorf | Trouver ∑z(n) pour 0<n<10¹⁷ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p297.md) |
+| Jeu de bande de papier | Pour 1≤n≤10⁶, combien de valeurs de n le premier joueur peut-il forcer une victoire ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p306.md) |
+| Échelles entières | Pour 0<x<y<10⁶, combien de triplets (x,y,h) produisent des solutions entières pour w ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p309.md) |
+| Nim carré | Trouver le nombre de positions perdantes pour le prochain joueur si 0≤a≤b≤c≤100000 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p310.md) |
+| Chemins cycliques sur les graphes de Sierpiński | Trouver C(C(C(10000))) mod 13⁸ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p312.md) |
+| Jeu de glissement | Combien de grilles y a-t-il telles que S(m,n)=p², où p<10⁶ est premier ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p313.md) |
+| Horloges à racine digitale | Trouver la différence d'énergie totale consommée entre les deux horloges pour tous les nombres premiers entre 10⁷ et 2×10⁷ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p315.md) |
+| Nombres dans les expansions décimales | Trouver ∑ₙ₌₂⁹⁹⁹⁹⁹⁹ g(⌊10¹⁶n⌋) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p316.md) |
+| 2011 neufs | Trouver ∑N(p,q) pour p+q ≤ 2011 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p318.md) |
+| Factoriels divisibles par un très grand entier | Trouver S(1000000) mod 10¹⁸ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p320.md) |
+| Échange de compteurs | Trouver la somme des quarante premiers termes de la séquence où M(n) est un nombre triangulaire | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p321.md) |
+| Rassemblement des haricots | Trouver ∑ₖ₌₀¹⁰¹⁸ M(2ᵏ+1) modulo 7⁹ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p335.md) |
+| Fonction folle | Trouver les 9 derniers chiffres de S(21⁷, 7²¹, 12⁷) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p340.md) |
+| Vergers hexagonaux | Trouver H(10⁸) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p351.md) |
+| Nombres cycliques | Trouver la somme des chiffres du nombre cyclique recherché | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p358.md) |
+| Dés platoniciens | Trouver la variance de I, arrondie à 4 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p389.md) |
+| Polynômes de nombres de Fibonacci | Trouver ∑ₓ₌₀¹⁰⁰ Fₙ(x) modulo 1307674368000 pour n = 10¹⁵ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p435.md) |
+| Séquence GCD | Trouver g(10¹⁵) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p443.md) |
+| Un polynôme modulo le carré d'un nombre premier | Trouver SR(10⁷) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p457.md) |
+| Presque Pi | Trouver g(10000) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p461.md) |
+| Une relation de récurrence étrange | Trouver S(3³⁷), donner les 9 derniers chiffres | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p463.md) |
+| Base phigitale | Trouver la somme de tous les entiers positifs n ≤ 10¹⁰ dont la représentation phigitale est palindromique | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p473.md) |
+| Racines en hausse | Trouver S(10⁶) modulo 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p479.md) |
+| Nombre maximum de diviseurs | Trouver S(100000000, 100000) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p485.md) |
+| Nombre double pandigital divisible par 11 | Combien de nombres doubles pandigitaux sont divisibles par 11 ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p491.md) |
+| Sous l'arc-en-ciel | Quel est le nombre attendu de couleurs distinctes dans 20 boules choisies au hasard ? Donner votre réponse avec 9 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p493.md) |
+| Nombre avec 2^500500 diviseurs | Trouver le plus petit nombre avec 2^500500 diviseurs, modulo 500500507 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p500.md) |
+| Huit diviseurs | Trouver f(10¹²) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p501.md) |
+| Carré à l'intérieur | Combien de quadrilatères ABCD contiennent strictement un nombre carré de points de grille pour m = 100 ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p504.md) |
+| Cercles tangents | Trouver S(10⁹) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p510.md) |
+| Sommes de totients de puissances | Trouver g(5×10⁸) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p512.md) |
+| Totients 5-smooth | Trouver S(10¹²) modulo 2³² | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p516.md) |
+| Triplets premiers et séquences géométriques | Trouver S(10⁸) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p518.md) |
+| Premier tri I | Trouver E(30) arrondi à 2 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p523.md) |
+| Restes chinois | Trouver ∑ f(n,m) pour 1000000 ≤ n < m < 1005000 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p531.md) |
+| Comptage de tuples | Trouver T(10000,10) mod 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p537.md) |
+| Élimination impaire | Trouver S(10¹⁸) modulo 987654321 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p539.md) |
+| Comptage de triplets pythagoriciens primitifs | Trouver P(3141592653589793) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p540.md) |
+| Nombres somme-premiers | Trouver la somme de tous les S(F(k)) sur 3 ≤ k ≤ 44 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p543.md) |
+| Fonction McCarthy 91 | Trouver ∑ SF(m, k, s) pour les conditions données | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p555.md) |
+| Paires de diviseurs | Évaluer Q(10¹²) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p561.md) |
+| Nombres super-pandigitaux | Quelle est la somme des 10 plus petits nombres 12-super-pandigitaux ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p571.md) |
+| Comptage d'hexagones | Trouver ∑_{n=3}^{12345} H(n) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p577.md) |
+| Nombres triangulaires 47-smooth | Trouver la somme de tous les indices n tels que T(n) est 47-smooth | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p581.md) |
+| Traînées de divisibilité | Trouver ∑_{i=1}^{31} P(i, 4^i) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p601.md) |
+| Traversée de marais | Trouver le temps de voyage optimal en jours, arrondi à 10 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p607.md) |
+| Fourmi pythagoricienne | Probabilité que la fourmi quitte le triangle par son côté le plus long, arrondie à 10 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p613.md) |
+| Nombres avec une somme de facteurs premiers donnée | Trouver ∑_{k=2}^{24} S(Fₖ) modulo 1000000000 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p618.md) |
+| Mélanges par faro | Trouver la somme de toutes les valeurs de n qui satisfont s(n) = 60 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p622.md) |
+| Lignes croisées | Trouver M(2500) sous la forme (M, S) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p630.md) |
+| Une longue rangée de dés | Trouver f(10³⁶) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p641.md) |
+| Somme des plus grands facteurs premiers | Trouver F(201820182018) modulo 10⁹ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p642.md) |
+| Diviseurs du produit binomial | Trouver S(20000) mod 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p650.md) |
+| Palindromes divisibles | Combien de palindromes < 10³² sont divisibles par 10000019 ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p655.md) |
+| Plus grand nombre premier | Trouver les 18 derniers chiffres de ∑_{k=1}^{10000000} P(k) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p659.md) |
+| Nombres square root smooth | Combien y a-t-il de nombres square root smooth ≤ 10000000000 ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p668.md) |
+| Le banquet du roi | Trouver le chevalier assis sur la 10¹⁶-ième chaise depuis la gauche du roi | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p669.md) |
+| 2^ω(n) | Trouver F(10⁸) mod 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p675.md) |
+| Somme de chiffres inverse | Trouver ∑_{i=2}^{90} S(f_i) modulo 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p684.md) |
+| Puissances de 2 | Trouver p(123, 678910) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p686.md) |
+| Siegbert et Jo | Trouver G(23416728348467685) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p692.md) |
+| Diviseurs cube-full | Trouver S(10¹⁸) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p694.md) |
+| Séquence en décroissance aléatoire | Trouver log₁₀ c arrondi à 2 décimales pour n = 10⁷ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p697.md) |
+| Eulercoin | Trouver la somme de tous les Eulercoins | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p700.md) |
+| Facteurs de 2 dans les coefficients binomiaux | Trouver S(10¹⁶) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p704.md) |
+| Even Stevens | Trouver f(24680) modulo 1020202009 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p709.md) |
+| Un million de membres | Trouver la plus petite valeur de n > 42 telle que t(n) est divisible par un million | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p710.md) |
+| Différence d'exposant | Trouver S(10¹²) modulo 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p712.md) |
+| Duodigits | Trouver D(50000) en notation scientifique arrondie à 13 chiffres significatifs | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p714.md) |
+| Somme d'une formule modulaire | Trouver G(10⁷) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p717.md) |
+| Division de nombres | Trouver T(10¹²) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p719.md) |
+| Hautes puissances de nombres irrationnels | Trouver G(5000000) modulo 999999937 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p721.md) |
+| Série à convergence lente | Trouver E₁₅(1-1/2²⁵) en notation scientifique arrondie à 12 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p722.md) |
+| Nombres somme de chiffres | Trouver S(2020) modulo 10¹⁶ | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p725.md) |
+| Un nombre de Stoneham | Trouver A(10¹⁶) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p731.md) |
+| Fenêtre dans une matrice | Trouver A(10⁸, 10¹⁶) modulo 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p743.md) |
+| Somme de carrés II | Trouver S(10¹⁴) modulo 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p745.md) |
+| Coïncidence de concaténation | Trouver θ arrondi à 24 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p751.md) |
+| Puissances de 1 + √7 | Trouver G(10⁶) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p752.md) |
+| Produit de factorielles de Gauss | Trouver G(10⁸) modulo 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p754.md) |
+| Nombres furtifs | Combien y a-t-il de nombres furtifs ≤ 10¹⁴ ? | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p757.md) |
+| Coureur et nageur | Trouver V_Hexagone arrondi à 8 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p761.md) |
+| Facteur premier et exposant | Trouver f̄_15 arrondi à 12 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p779.md) |
+| Nombres dominants | Trouver D(2022) modulo 1000000007 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p788.md) |
+| Médiane de produits | Trouver M(10⁶) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p793.md) |
+| Somme GCD alternée | Trouver G(12345678) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p795.md) |
+| Entiers hybrides | Trouver C(800^800^800^800) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p800.md) |
+| Carrés premiers réversibles | Trouver la somme des 50 premiers carrés premiers réversibles | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p808.md) |
+| XOR-premiers | Trouver le 5000000-ième XOR-premier | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p810.md) |
+| Distance la plus courte entre points | Trouver d(2000000) arrondi à 9 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p816.md) |
+| N-ième chiffre des inverses | Trouver S(10⁷) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p820.md) |
+| Élever au carré le plus petit | Trouver S(10⁴, 10¹⁶) modulo 1234567891 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p822.md) |
+| Oiseaux sur un fil | Trouver la moyenne de F(n) pour les nombres premiers impairs < 10⁶, arrondie à 10 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p826.md) |
+| Défi des nombres | Sommer les valeurs cibles pour tous les problèmes résolus | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p828.md) |
+| Séquence Mex | Trouver M(10⁹) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p832.md) |
+| Une proposition audacieuse | Trouver f(20230401, 57) - concaténation des premières lettres | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p836.md) |
+| Périodes de Pisano 1 | Trouver la somme des n < 10⁹ avec π(n) = 120 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p853.md) |
+| Permutation de chiffres plus grande | Trouver S(12) modulo 1123455689 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p862.md) |
+| Devinette de nombres premiers | Trouver E(10⁸) arrondi à 8 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p869.md) |
+| Arbre récursif | Trouver f(10¹⁷, 9¹⁷) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p872.md) |
+| Chiffres triés | Trouver S(18) modulo 1123455689 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p885.md) |
+| Somme de séquence récursive | Trouver S(10¹²) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p918.md) |
+| Triangles chanceux | Trouver S(10⁶) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p919.md) |
+| Nombres tau | Trouver M(16) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p920.md) |
+| Récurrence dorée | Trouver S(10⁶) modulo 10⁹+7 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p921.md) |
+| Jeu de Young A | Trouver le nombre d'escaliers selon les spécifications | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p922.md) |
+| Jeu de Young B | Trouver le nombre d'escaliers selon les spécifications | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p923.md) |
+| Plus grande permutation de chiffres II | Trouver U(10¹⁶) modulo 10⁹+7 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p924.md) |
+| Permutation III | Trouver T(10¹⁶) modulo 10⁹+7 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p925.md) |
+| Rondeur totale | Trouver R(10¹⁶!) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p926.md) |
+| Arbre premier-ary | Trouver R(10⁶) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p927.md) |
+| Cribbage | Calculer le score total selon les règles du cribbage | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p928.md) |
+| Compositions à runs impairs | Trouver F(10⁵) modulo 1111124111 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p929.md) |
+| Le rassemblement | Trouver G(123, 1234567) arrondi à 10 décimales | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p930.md) |
+| Graphe de totient | Trouver T(10¹²) modulo 715827883 | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p931.md) |
+| 2025 | Trouver T(16) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p932.md) |
+| Découpage de papier | Trouver D(123, 1234567) | [editorial](https://github.com/leg234-png/Project-Euler-solutions/blob/master/solution/p933.md) |
 
