@@ -1,0 +1,89 @@
+{% extends "base.html" %}
+
+{% block title %}Problème {{ prob_id }} - Projet Euler{% endblock %}
+
+{% block content %}
+<div class="problem-header">
+    <a href="{{ url_for('index') }}" class="btn-back">
+        <span class="icon">←</span> Retour aux problèmes
+    </a>
+    <h1 class="problem-title">Détail du Problème <span class="highlight">#{{ prob_id }}</span></h1>
+</div>
+
+{% if prob_info %}
+<div class="problem-statement-card glass">
+    <h2 class="statement-title">{{ prob_info.title }}</h2>
+    <div class="statement-content">
+        {{ prob_info.html_content|safe }}
+    </div>
+</div>
+{% endif %}
+
+<div class="problem-layout">
+    <div class="solution-section">
+        {% for source in sources %}
+        <div class="code-card glass">
+            <div class="code-header">
+                <span class="filename"><span class="icon">📄</span> {{ source.filename }}</span>
+            </div>
+            <div class="code-container">
+                <button class="copy-btn" onclick="copyCode(this)">Copier</button>
+                <pre><code class="language-python">{{ source.content }}</code></pre>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="sidebar">
+        <div class="answer-card glass">
+            <h3 class="card-subtitle">Réponse Attendue</h3>
+            <div id="answer-box" class="answer-box hidden">
+                <span class="answer-text">{{ answer }}</span>
+            </div>
+            <button id="reveal-btn" class="btn-reveal" onclick="revealAnswer()">
+                <span class="icon">👁️</span> Révéler la réponse
+            </button>
+        </div>
+
+        <div class="info-card glass">
+            <h3 class="card-subtitle">Révision</h3>
+            <p>Analysez le code à gauche. Est-ce la solution la plus optimale ?</p>
+            <ul class="check-list">
+                <li>Complexité temporelle</li>
+                <li>Lisibilité du code</li>
+                <li>Cas limites gérés</li>
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+function revealAnswer() {
+    const box = document.getElementById('answer-box');
+    const btn = document.getElementById('reveal-btn');
+    box.classList.remove('hidden');
+    box.classList.add('revealed');
+    btn.style.display = 'none';
+}
+
+function copyCode(btn) {
+    const codeContainer = btn.closest('.code-container');
+    const code = codeContainer.querySelector('code').innerText;
+    
+    navigator.clipboard.writeText(code).then(() => {
+        const originalText = btn.innerText;
+        btn.innerText = 'Copié !';
+        btn.classList.add('copied');
+        
+        setTimeout(() => {
+            btn.innerText = originalText;
+            btn.classList.remove('copied');
+        }, 2000);
+    }).catch(err => {
+        console.error('Erreur lors de la copie : ', err);
+    });
+}
+</script>
+{% endblock %}

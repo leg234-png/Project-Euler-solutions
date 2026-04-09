@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+{% block title %}Problèmes - Projet Euler{% endblock %}
+
+{% block content %}
+<div class="header-section">
+    <h1 class="page-title">Mes Solutions <span class="highlight">Euler</span></h1>
+    <p class="subtitle">Sélectionnez un problème pour réviser le code et vérifier la réponse.</p>
+</div>
+
+<div class="grid">
+    {% for p_id in sorted_pids %}
+    <a href="{{ url_for('problem_detail', prob_id=p_id) }}" class="card glass">
+        <div class="card-content">
+            <h2 class="problem-number">Problème <span class="highlight">{{ p_id }}</span></h2>
+            {% set p_str = p_id|string %}
+            {% if p_str in statements %}
+                <p class="problem-card-title">{{ statements[p_str].title }}</p>
+            {% endif %}
+            <div class="card-meta">
+                <span class="badge">{{ problems[p_id]|length }} fichier(s)</span>
+                {% if p_id in answers %}
+                <span class="badge badge-success">Répondu</span>
+                {% endif %}
+            </div>
+        </div>
+        <div class="card-hover-effect"></div>
+    </a>
+    {% else %}
+    <div class="empty-state glass">
+        <h2>Aucun problème trouvé</h2>
+        <p>Assurez-vous que le dossier <code>python/</code> contient vos solutions.</p>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}
